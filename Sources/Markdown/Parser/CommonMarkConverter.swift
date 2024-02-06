@@ -9,7 +9,6 @@
 */
 
 import cmark_gfm
-import cmark_gfm_extensions
 import Foundation
 
 /// String-based CommonMark node type identifiers.

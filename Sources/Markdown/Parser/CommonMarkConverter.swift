@@ -9,6 +9,9 @@
 */
 
 import cmark_gfm
+#if canImport(cmark_gfm_extensions)
+import cmark_gfm_extensions
+#endif
 import Foundation
 
 /// String-based CommonMark node type identifiers.

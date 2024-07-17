@@ -30,5 +30,8 @@ public struct ParseOptions: OptionSet {
 
     /// Disable including a `data-sourcepos` attribute on all block elements during parsing.
     public static let disableSourcePosOpts = ParseOptions(rawValue: 1 << 4)
+
+    /// Only parse strikethroughs if surrounded by exactly 2 tildes.
+    public static let onlyParseStrikethroughDoubleTilde = ParseOptions(rawValue: 1 << 5)
 }
 
